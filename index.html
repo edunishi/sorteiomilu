@@ -26,16 +26,17 @@
       text-align: center;
     }
 
-    h1 {
+    h1, h2 {
       color: #d63384;
-      font-size: 2em;
       margin-bottom: 20px;
     }
 
+    h1 {
+      font-size: 2em;
+    }
+
     h2 {
-      color: #d63384;
       font-size: 1.5em;
-      margin-bottom: 20px;
     }
 
     p {
@@ -79,7 +80,6 @@
       font-weight: bold;
     }
 
-    /* Estilo para a seção expansível */
     .expansao {
       background-color: #f8f9fa;
       padding: 15px;
@@ -115,7 +115,7 @@
     }
 
     .copyright {
-      font-size: 0.5em; /* Tamanho menor para o texto de copyright */
+      font-size: 0.5em;
       color: #6f1d56;
       margin-top: 40px;
     }
@@ -174,7 +174,7 @@
       <option value="Leo Nakamura">Leo Nakamura</option>
       <option value="Léo Nishi">Léo Nishi</option>
       <option value="Letícia">Letícia</option>
-      <option value="Lucas Alves">Lucas</option>
+      <option value="Lucas Alves">Lucas Alves</option>
       <option value="Lucas Troibicz">Lucas Troibicz</option>
       <option value="Lucia">Lucia</option>
       <option value="Mateus">Mateus</option>
@@ -202,10 +202,8 @@
 
     <div class="resultado" id="resultado"></div>
 
-    <!-- Botão para expandir a seção com mais informações -->
     <button class="expand-btn" onclick="toggleExpansao()">Ver mais informações</button>
 
-    <!-- Seção expansível com mais informações -->
     <div class="expansao" id="informacoesExpansao">
       <h3>📍 Local:</h3>
       <p>Salão de festas do prédio Setin Downtown Nova República - Praça da República, 365.</p>
@@ -223,13 +221,10 @@
     <div class="copyright">
       <p>&copy; 2025 Direitos autorais reservados aos padrinhos <strong>Ana & Eduardo</strong>. Qualquer uso não autorizado será severamente punido com muitos shots. 😜</p>
     </div>
-
   </div>
 
-  <!-- Importa a lista de presentes -->
   <script src="lista.js"></script>
 
-  <!-- Script principal -->
   <script>
     const sorteados = {};
 
@@ -239,6 +234,11 @@
 
       if (!nome) {
         resultado.innerHTML = "❗ Por favor, selecione seu nome.";
+        return;
+      }
+
+      if (typeof presentesPorNome === 'undefined') {
+        resultado.innerHTML = "❗ Erro ao carregar a lista de presentes. Verifique se o arquivo <strong>lista.js</strong> está presente.";
         return;
       }
 
@@ -254,19 +254,17 @@
       }
 
       sorteados[nome] = presente;
-
       resultado.innerHTML = `🎉 ${nome}, o presente que você deve levar é: <strong>${presente}</strong>`;
     }
 
-    // Função para alternar a exibição da seção expansível
     function toggleExpansao() {
       const expansao = document.getElementById("informacoesExpansao");
-      if (expansao.style.display === "none" || expansao.style.display === "") {
-        expansao.style.display = "block";
-      } else {
-        expansao.style.display = "none";
-      }
+      expansao.style.display = expansao.style.display === "block" ? "none" : "block";
     }
+
+    window.onload = () => {
+      document.getElementById("informacoesExpansao").style.display = "none";
+    };
   </script>
 </body>
 </html>

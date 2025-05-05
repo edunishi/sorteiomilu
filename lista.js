@@ -1,4 +1,4 @@
-const presentesPorNome = {
+const presentesPorNome  = {
 "Akira" :"Boxer azul-marinho (G) + mimo a sua escolha",
 "Aline":"Fio dental de renda vinho M + mimo a sua escolha",
 "Amanda":"Conjunto verde esmeralda com alcinhas finas (sutiã P/42 + calcinha P/M)",

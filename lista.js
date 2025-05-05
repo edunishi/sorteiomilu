@@ -1,7 +1,7 @@
 const presentesPorNome = {
-    "Ana": "Calcinha P",
+    "Ana": "Camisola P",
     "Eduardo": "Cueca G",
-    "Leo": "Pijama M",
-    "Murilo": "Pijama G"
+    "Leo": "Pijama M para o noivo",
+    "Murilo": "Pijama G para o noivo"
   };
   

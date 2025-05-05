@@ -5,7 +5,7 @@ const presentesPorNome  = {
 "Aninha":"Camisola branca com toque romântico (tamanho P)",
 "Bia (Minas)":"Camisola preta com toque romântico (tamanho P)",
 "Bianca":"Fio dental azul marinho M + mimo a sua escolha",
-"Bibi":"Conjunto verde esmeralda com alcinhas finas (sutiã P/42 + calcinha P/M)",
+"Bibi":"Conjunto preto (sutiã P/42 + calcinha P/M)",
 "Bruna":"Pijama de calor P",
 "Bruno":"Short de dormir liso em preto ou azul-marinho (G)",
 "Caetano":"Pijama de calor G (para o noivo)",

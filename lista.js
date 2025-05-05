@@ -3,7 +3,7 @@ const presentesPorNome  = {
 "Aline":"Fio dental de renda vinho M + mimo a sua escolha",
 "Amanda":"Conjunto verde esmeralda com alcinhas finas (sutiã P/42 + calcinha P/M)",
 "Aninha":"Camisola branca com toque romântico (tamanho P)",
-"Bia (Minas)":"Camisola branca com toque romântico (tamanho P)",
+"Bia (Minas)":"Camisola preta com toque romântico (tamanho P)",
 "Bianca":"Fio dental azul marinho M + mimo a sua escolha",
 "Bibi":"Conjunto verde esmeralda com alcinhas finas (sutiã P/42 + calcinha P/M)",
 "Bruna":"Pijama de calor P",

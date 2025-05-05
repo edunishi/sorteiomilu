@@ -22,7 +22,7 @@ const presentesPorNome  = {
 "Heloísa":"Tanga preta M + mimo a sua escolha",
 "Jaque Cris":"Calcinha rosa com lacinho discreto + mimo a sua escolha",
 "Jaqueline":"Fio dental de renda vinho M + mimo a sua escolha",
-"Jaqueline de Paulo":"Calcinha estilo “hot pant” preta  M+ mimo a sua escolha",
+"Jaqueline de Paulo":"Calcinha estilo “hot pant” preta M + mimo a sua escolha",
 "Jessica":"Tanga verde escuro com lacinho discreto + mimo a sua escolha",
 "Joana":"Fio dental bege com detalhe em tule M + mimo a sua escolha",
 "João":"Samba cançao  + mimo a sua escolha",

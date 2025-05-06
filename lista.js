@@ -8,6 +8,7 @@ const presentesPorNome  = {
 "Bibi":"Conjunto preto (sutiã P/42 + calcinha P/M)",
 "Bruna":"Pijama de calor P",
 "Bruno":"Short de dormir liso em preto ou azul-marinho (G)",
+"Carol":"Conjunto de renda vermelho (sutiã P/42 + calcinha M)",
 "Caetano":"Pijama de calor G (para o noivo)",
 "Dani Gogoni":"Camisola de cetim vinho com renda (tamanho P)",
 "Diego":"Boxer azul (G) + mimo a sua escolha",
@@ -42,6 +43,7 @@ const presentesPorNome  = {
 "Mika":"Calcinha estilo “hot pant” branca M + mimo a sua escolha",
 "Miriely":"Conjunto preto (sutiã P/42 + calcinha M)",
 "Murilo":"Camisinha que brilha no escuro + mimo a sua escolha (para o noivo)",
+"Natalia":"Robe de cetim P",
 "Nic Nishimura":"Top bojo removivel rendado tamanho P",
 "Nicole Almeida":"Tanga rosé em microfibra M + mimo a sua escolha",
 "Nino":"Boxer azul (G)  + mimo a sua escolha",
@@ -54,6 +56,8 @@ const presentesPorNome  = {
 "Thiago Kamida":"Pijama inverno + mimo a sua escolha (para o noivo)",
 "Tici":"Pijama longo de inverno cinza ou bege (tamanho P)",
 "Valkiria":"Conjunto preto em tule com transparência (sutiã P/42 + calcinha P/M)",
-"Vanessa":"Tanga verde escuro com lacinho discreto + mimo a sua escolha"
+"Vanessa":"Tanga verde escuro com lacinho discreto + mimo a sua escolha",
+"Willians":"Boxer preta (G) + Boxer branca (G)",
+
   };
   

@@ -1,4 +1,5 @@
 const presentesPorNome  = {
+"Andre Murano": "Pijama nerd (G)",
 "Akira" :"Boxer azul-marinho (G) + mimo a sua escolha",
 "Aline":"Fio dental de renda vinho M + mimo a sua escolha",
 "Amanda":"Conjunto verde esmeralda com alcinhas finas (sutiã P/42 + calcinha P/M)",
@@ -57,7 +58,7 @@ const presentesPorNome  = {
 "Tici":"Pijama longo de inverno cinza ou bege (tamanho P)",
 "Valkiria":"Conjunto preto em tule com transparência (sutiã P/42 + calcinha P/M)",
 "Vanessa":"Tanga verde escuro com lacinho discreto + mimo a sua escolha",
-"Willians":"Boxer preta (G) + Boxer branca (G)",
+"Willians":"Boxer preta (G) + Boxer branca (G)"
 
   };
   
